@@ -12,7 +12,7 @@ import Contact from "./Pages/Contact";
 // Import background images
 import defaultBg from "/src/assets/bg_resized.png";
 import aboutBg from '/src/assets/About_resized_full.png';
-import reelBg from "/src/assets/Reel.png";
+import reelBg from "/src/assets/reel.png";
 import partnerbg from '/src/assets/Partnerbg.jpeg'
 import bgvideo from "/src/assets/reelbg.mp4";
 
