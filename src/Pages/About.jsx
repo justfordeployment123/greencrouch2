@@ -7,7 +7,7 @@ const About = () => {
       {/* Background image only for mobile */}
       <div className="absolute inset-0 md:hidden">
         <img
-          src="/src/assets/sofaabt.png" 
+          src="/dist/assets/sofaabt.png" 
           alt="Background Sofa"
           className="object-contain w-full h-full opacity-10"
         />

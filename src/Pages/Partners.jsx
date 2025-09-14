@@ -58,31 +58,31 @@ const Partners = () => {
   // Sample partner images data
   const partnerImages = {
     streamers: [
-      "/src/assets/ns1.jpg",
-      "/src/assets/ns2.webp",
-      "/src/assets/ns3.jpg",
-      "/src/assets/ns5.jpg",
-      "/src/assets/ns6.png",
-      "/src/assets/ns8.png",
-      "/src/assets/ns7.jpg",
+      "/dist/assets/ns1.jpg",
+      "/dist/assets/ns2.webp",
+      "/dist/assets/ns3.jpg",
+      "/dist/assets/ns5.jpg",
+      "/dist/assets/ns6.png",
+      "/dist/assets/ns8.png",
+      "/dist/assets/ns7.jpg",
     ],
     brands: [
-      "/src/assets/Brandlogofcompress/b1.jpg",
-      "/src/assets/Brandlogofcompress/b2.jpg",
-      "/src/assets/b3.jpg",
-      "/src/assets/b4.jpg",
-      "/src/assets/Brandlogofcompress/b5.jpg",
-      "/src/assets/b6.jpg",
-      "/src/assets/Brandlogofcompress/b7.jpg",
-      "/src/assets/b8.png",
-      "/src/assets/b9.jpeg",
+      "/dist/assets/Brandlogofcompress/b1.jpg",
+      "/dist/assets/Brandlogofcompress/b2.jpg",
+      "/dist/assets/b3.jpg",
+      "/dist/assets/b4.jpg",
+      "/dist/assets/Brandlogofcompress/b5.jpg",
+      "/dist/assets/b6.jpg",
+      "/dist/assets/Brandlogofcompress/b7.jpg",
+      "/dist/assets/b8.png",
+      "/dist/assets/b9.jpeg",
     ],
     distributors: [
-      "/src/assets/d1.webp",
-      "/src/assets/d4.png",
-      "/src/assets/d3.jpg",
-      "/src/assets/d4.jpg",
-      "/src/assets/d5.jpg",
+      "/dist/assets/d1.webp",
+      "/dist/assets/d4.png",
+      "/dist/assets/d3.jpg",
+      "/dist/assets/d4.jpg",
+      "/dist/assets/d5.jpg",
     ],
   };
 
@@ -145,7 +145,7 @@ const Partners = () => {
         <div
           className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-10 blur-sm"
           style={{
-            backgroundImage: `url('/src/assets/Partnerbgimg.png')`,
+            backgroundImage: `url('/dist/assets/Partnerbgimg.png')`,
           }}
         />
 

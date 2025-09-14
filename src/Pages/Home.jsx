@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import tvFrame from "/src/assets/tv.png";
+import tvFrame from "/dist/assets/tv.png";
 
 const Home = () => {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
@@ -304,7 +304,7 @@ const Home = () => {
                 >
                   {/* Olive screen overlay - shows initially */}
                   <img
-                    src="/src/assets/tv_screen_only.png"
+                    src="/dist/assets/tv_screen_only.png"
                     alt="TV Screen"
                     className={`absolute inset-0 w-full h-full object-cover z-20 transition-opacity duration-500 ${
                       showOverlay ? "opacity-100" : "opacity-0 pointer-events-none"
@@ -322,7 +322,7 @@ const Home = () => {
                     onEnded={handleVideoEnded}
                     onError={handleVideoError}
                   >
-                    <source src="/src/assets/homevideo.mp4" type="video/mp4" />
+                    <source src="/dist/assets/Homevideo.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </div>

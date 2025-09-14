@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../Components/Layout";
-import reelVideo from "/src/assets/reelbg.mp4";
-import reelBgTransparent from "/src/assets/reel.png"; 
+import reelVideo from "/dist/assets/reelbg-AwtLH4CQ.mp4";
+import reelBgTransparent from "/dist/assets/reel.png"; 
 
 
 const WatchReel = () => {

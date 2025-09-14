@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Founder1 from "/src/assets/f22.png";
-import Founder2 from "/src/assets/f2.png";
+import Founder1 from "/dist/assets/f22.png";
+import Founder2 from "/dist/assets/f2.png";
 
 const Bios = () => {
   const [showPaulFull, setShowPaulFull] = useState(false);

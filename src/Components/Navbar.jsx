@@ -132,7 +132,7 @@ const Navbar = () => {
           <div className="absolute inset-1 bg-gradient-radial from-white/30 via-[#319d0a]/50 to-transparent rounded-full blur-md bulb-glow"></div>
           
           <img
-            src="/src/assets/updatedlogonav.png"
+            src="/dist/assets/updatedlogonav.png"
             alt="Mobile Logo"
             className="relative z-10 h-full w-full object-contain drop-shadow-[0_0_12px_rgba(255,255,255,0.7)] transition-transform duration-300 hover:scale-110"
           />
@@ -178,7 +178,7 @@ const Navbar = () => {
             <div className="absolute inset-0 bg-gradient-radial from-white/30 via-[#319d0a]/40 to-transparent rounded-full blur-md bulb-glow pointer-events-none"></div>
             
             <img
-              src="/src/assets/updatedlogonav.png"
+              src="/dist/assets/updatedlogonav.png"
               alt="Halo Logo"
               className="relative z-10 h-full w-full object-contain drop-shadow-[0_0_15px_rgba(255,255,255,0.9)] lg:drop-shadow-[0_0_18px_rgba(255,255,255,0.9)] transition-transform duration-300 hover:scale-105"
             />
