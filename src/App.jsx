@@ -10,11 +10,11 @@ import Partners from "./Pages/Partners";
 import Contact from "./Pages/Contact";
 
 // Import background images
-import defaultBg from "/src/assets/bg_resized.png";
-import aboutBg from '/src/assets/About_resized_full.png';
-import reelBg from "/src/assets/reel.png";
-import partnerbg from '/src/assets/Partnerbg.jpeg'
-import bgvideo from "/src/assets/reelbg.mp4";
+import defaultBg from "./assets/bg_resized.png";
+import aboutBg from './assets/About_resized_full.png';
+import reelBg from "./assets/reel.png";
+import partnerbg from './assets/Partnerbg.jpeg'
+import bgvideo from "./assets/reelbg.mp4";
 
 function App() {
   return (

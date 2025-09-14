@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logoImage from "/src/assets/updatedlogonav.png";
+import logoImage from "../assets/updatedlogonav.png";
 
 // Enhanced CSS for smooth ambient lighting with bulb glow
 const ambientLightStyles = `

@@ -1,14 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
-import w1Image from "/src/assets/w1.png";
-import savetowin1Image from "/src/assets/savetowin1.png";
-import savetowinImage from "/src/assets/savetowin.jpg";
-import w2Image from "/src/assets/w2.jpg";
-import deported1Image from "/src/assets/deported1.png";
-import deportedr2Image from "/src/assets/deportedr2.webp";
-import deportedc1Image from "/src/assets/deportedc1.png";
-import deportedc24Image from "/src/assets/deportedc24.png";
-import w3Image from "/src/assets/w3.png";
+import w1Image from "../assets/w1.png";
+import savetowin1Image from "../assets/savetowin1.png";
+import savetowinImage from "../assets/savetowin.jpg";
+import w2Image from "../assets/w2.jpg";
+import deported1Image from "../assets/deported1.png";
+import deportedr2Image from "../assets/deportedr2.webp";
+import deportedc1Image from "../assets/deportedc1.png";
+import deportedc24Image from "../assets/deportedc24.png";
+import w3Image from "../assets/w3.png";
 
 const Ourwork = () => {
   return (
