@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+/* ——— Font family ——— */
+html, body {
+  font-family: "Hiragino Sans CNS", "Hiragino Sans", "Hiragino Kaku Gothic ProN",
+               "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+}
+
+/* ——— Overlay dissolve animations ——— */
+#tvOffOverlay { will-change: opacity; }
+.fade-out { animation: overlayFadeOut 900ms ease forwards; }
+.fade-in  { animation: overlayFadeIn  900ms ease forwards; }
+
+@keyframes overlayFadeOut { from { opacity: 1; } to { opacity: 0; } }
+@keyframes overlayFadeIn  { from { opacity: 0; } to { opacity: 1; } }
