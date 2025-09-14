@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import tvFrame from "../assets/tv.png";
 import tvScreenOnly from "../assets/tv_screen_only.png";
-import homeVideo from "../assets/homevideo.mp4";
+import homeVideo from "../assets/Homevideo.mp4";
 
 const Home = () => {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
