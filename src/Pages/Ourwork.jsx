@@ -1,5 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
+import w1Image from "/src/assets/w1.png";
+import savetowin1Image from "/src/assets/savetowin1.png";
+import savetowinImage from "/src/assets/savetowin.jpg";
+import w2Image from "/src/assets/w2.jpg";
+import deported1Image from "/src/assets/deported1.png";
+import deportedr2Image from "/src/assets/deportedr2.webp";
+import deportedc1Image from "/src/assets/deportedc1.png";
+import deportedc24Image from "/src/assets/deportedc24.png";
+import w3Image from "/src/assets/w3.png";
 
 const Ourwork = () => {
   return (
@@ -24,7 +33,7 @@ const Ourwork = () => {
           transition={{ duration: 0.6 }}
         >
           <img
-            src="/src/assets/w1.png"
+            src={w1Image}
             alt="Save to Win"
             className="object-contain w-full h-auto max-h-[250px] sm:max-h-[300px] mb-4"
           />
@@ -34,12 +43,12 @@ const Ourwork = () => {
           {/* Awards - Adjusted sizes */}
           <div className="flex items-center justify-center gap-3 mt-2">
             <img
-              src="/src/assets/savetowin1.png"
+              src={savetowin1Image}
               alt="Telly Award"
               className="object-contain h-[60px] w-auto"
             />
             <img
-              src="/src/assets/savetowin.jpg"
+              src={savetowinImage}
               alt="Reggie Award"
               className="object-contain h-[60px] w-auto"
             />
@@ -54,7 +63,7 @@ const Ourwork = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <img
-            src="/src/assets/w2.jpg"
+            src={w2Image}
             alt="The Deported"
             className="object-contain w-full h-auto max-h-[250px] sm:max-h-[300px] mb-4"
           />
@@ -65,22 +74,22 @@ const Ourwork = () => {
           <div className="bg-white rounded-lg px-3 py-2 mt-2">
             <div className="grid grid-cols-2 gap-2">
               <img
-                src="/src/assets/deported1.png"
+                src={deported1Image}
                 alt="Beverly Hills Film Festival"
                 className="object-contain h-[55px] w-auto mx-auto"
               />
               <img
-                src="/src/assets/deportedr2.webp"
+                src={deportedr2Image}
                 alt="Film Festival Award"
                 className="object-contain h-[55px] w-auto mx-auto"
               />
               <img
-                src="/src/assets/deportedc1.png"
+                src={deportedc1Image}
                 alt="Official Selection 2019"
                 className="object-contain h-[55px] w-auto mx-auto"
               />
               <img
-                src="/src/assets/deportedc24.png"
+                src={deportedc24Image}
                 alt="Film Festival Award"
                 className="object-contain h-[55px] w-auto mx-auto"
               />
@@ -96,7 +105,7 @@ const Ourwork = () => {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <img
-            src="/src/assets/w3.png"
+            src={w3Image}
             alt="Harry & Meghan"
             className="object-contain w-full h-auto max-h-[250px] sm:max-h-[300px] mb-4"
           />

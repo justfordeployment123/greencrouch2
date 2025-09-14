@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import sofaImage from "/src/assets/sofaabt.png";
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
       {/* Background image only for mobile */}
       <div className="absolute inset-0 md:hidden">
         <img
-          src="/src/assets/sofaabt.png" 
+          src={sofaImage} 
           alt="Background Sofa"
           className="object-contain w-full h-full opacity-10"
         />

@@ -1,5 +1,28 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+// Import all images
+import ns1Image from "/src/assets/ns1.jpg";
+import ns2Image from "/src/assets/ns2.webp";
+import ns3Image from "/src/assets/ns3.jpg";
+import ns5Image from "/src/assets/ns5.jpg";
+import ns6Image from "/src/assets/ns6.png";
+import ns7Image from "/src/assets/ns7.jpg";
+import ns8Image from "/src/assets/ns8.png";
+import b1Image from "/src/assets/Brandlogofcompress/b1.jpg";
+import b2Image from "/src/assets/Brandlogofcompress/b2.jpg";
+import b3Image from "/src/assets/b3.jpg";
+import b4Image from "/src/assets/b4.jpg";
+import b5Image from "/src/assets/Brandlogofcompress/b5.jpg";
+import b6Image from "/src/assets/b6.jpg";
+import b7Image from "/src/assets/Brandlogofcompress/b7.jpg";
+import b8Image from "/src/assets/b8.png";
+import b9Image from "/src/assets/b9.jpeg";
+import d1Image from "/src/assets/d1.webp";
+import d3Image from "/src/assets/d3.jpg";
+import d4Image from "/src/assets/d4.png";
+import d4JpgImage from "/src/assets/d4.jpg";
+import d5Image from "/src/assets/d5.jpg";
+import partnerBgImage from "/src/assets/Partnerbgimg.png";
 
 // Working Marquee component with actual animation
 const Marquee = ({ children, speed = 50, direction = "left" }) => {
@@ -58,31 +81,31 @@ const Partners = () => {
   // Sample partner images data
   const partnerImages = {
     streamers: [
-      "/src/assets/ns1.jpg",
-      "/src/assets/ns2.webp",
-      "/src/assets/ns3.jpg",
-      "/src/assets/ns5.jpg",
-      "/src/assets/ns6.png",
-      "/src/assets/ns8.png",
-      "/src/assets/ns7.jpg",
+      ns1Image,
+      ns2Image,
+      ns3Image,
+      ns5Image,
+      ns6Image,
+      ns8Image,
+      ns7Image,
     ],
     brands: [
-      "/src/assets/Brandlogofcompress/b1.jpg",
-      "/src/assets/Brandlogofcompress/b2.jpg",
-      "/src/assets/b3.jpg",
-      "/src/assets/b4.jpg",
-      "/src/assets/Brandlogofcompress/b5.jpg",
-      "/src/assets/b6.jpg",
-      "/src/assets/Brandlogofcompress/b7.jpg",
-      "/src/assets/b8.png",
-      "/src/assets/b9.jpeg",
+      b1Image,
+      b2Image,
+      b3Image,
+      b4Image,
+      b5Image,
+      b6Image,
+      b7Image,
+      b8Image,
+      b9Image,
     ],
     distributors: [
-      "/src/assets/d1.webp",
-      "/src/assets/d4.png",
-      "/src/assets/d3.jpg",
-      "/src/assets/d4.jpg",
-      "/src/assets/d5.jpg",
+      d1Image,
+      d4Image,
+      d3Image,
+      d4JpgImage,
+      d5Image,
     ],
   };
 
@@ -145,7 +168,7 @@ const Partners = () => {
         <div
           className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-10 blur-sm"
           style={{
-            backgroundImage: `url('/src/assets/Partnerbgimg.png')`,
+            backgroundImage: `url(${partnerBgImage})`,
           }}
         />
 
