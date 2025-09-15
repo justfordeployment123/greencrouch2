@@ -1,8 +1,7 @@
 import React from "react";
 import Layout from "../Components/Layout";
 import reelVideo from "../assets/reelbg.mp4";
-import reelBgTransparent from "../assets/reel.png"; 
-
+import reelBgTransparent from "../assets/reel.png";
 
 const WatchReel = () => {
   const customBackground = (
@@ -40,17 +39,36 @@ const WatchReel = () => {
         .sofa-reflection-animate {
           animation: sofaFadeUp 1.8s ease-out;
         }
+        
+        /* Mobile video adjustments */
+        @media (max-width: 768px) {
+          .mobile-video {
+            object-fit: contain !important;
+            object-position: center top !important;
+            width: auto !important;
+            height: 100% !important;
+            min-width: 100% !important;
+          }
+          .mobile-video-container {
+            top: 10% !important;
+          }
+        }
       `}</style>
 
       {/* Video Wall - Responsive heights */}
-      <div className="absolute top-0 left-0 w-full h-[85vh] md:h-[80vh] lg:h-[80vh] overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-[85vh] md:h-[80vh] lg:h-[80vh] overflow-hidden bg-black mobile-video-container">
         <video
-          className="object-cover w-full h-full"
+          className="mobile-video md:object-cover md:w-full md:h-full"
           src={reelVideo}
           autoPlay
         //  muted
           loop
           playsInline
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover'
+          }}
         />
         {/* Video glow effect */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/20"></div>
@@ -71,15 +89,14 @@ const WatchReel = () => {
             }}
           />
         </div>
-        </div>
-        
-
+      </div>
+      
     </div>
   );
 
   return (
     <Layout custom={customBackground}>
-  
+      
     </Layout>
   );
 };
