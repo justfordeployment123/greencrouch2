@@ -149,7 +149,7 @@ const Partners = () => {
               
               <div className="overflow-x-auto pb-2 scrollbar-hide">
                 <div className="flex gap-4 w-max px-6">
-                  {[...partnerImages.streamers, ...partnerImages.streamers].map((imgSrc, i) => (
+                  {partnerImages.streamers.map((imgSrc, i) => (
                     <div key={i} className="flex-shrink-0">
                       <img
                         src={imgSrc}
@@ -183,7 +183,7 @@ const Partners = () => {
               
               <div className="overflow-x-auto pb-2 scrollbar-hide">
                 <div className="flex gap-4 w-max px-6">
-                  {[...partnerImages.brands, ...partnerImages.brands].map((imgSrc, i) => (
+                  {partnerImages.brands.map((imgSrc, i) => (
                     <div key={i} className="flex-shrink-0">
                       <img
                         src={imgSrc}
@@ -217,7 +217,7 @@ const Partners = () => {
               
               <div className="overflow-x-auto pb-2 scrollbar-hide">
                 <div className="flex gap-4 w-max px-6">
-                  {[...partnerImages.distributors, ...partnerImages.distributors, ...partnerImages.distributors].map((imgSrc, i) => (
+                  {partnerImages.distributors.map((imgSrc, i) => (
                     <div key={i} className="flex-shrink-0">
                       <img
                         src={imgSrc}
