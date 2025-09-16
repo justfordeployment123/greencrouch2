@@ -37,7 +37,7 @@ const Ourwork = () => {
             alt="Save to Win"
             className="object-contain w-full h-auto max-h-[250px] sm:max-h-[300px] mb-4"
           />
-          <p className="text-justify text-white text-xs sm:text-sm leading-relaxed mb-4 px-2">
+          <p className="text-left text-white text-xs sm:text-sm leading-relaxed mb-4 px-2">
             <strong>SAVE TO WIN</strong> is a fun and fast-paced play-along game show where savvy shoppers can win big cash by showcasing their knowledge of their favorite household brands. Two teams of two compete head to head as they play shopping-themed games in our studio store that resembles one of the country's largest retail chains. Contestants compete in three rounds testing their brand knowledge, and culminates in an exciting final bonus round where picking the right items off our product-themed prize wall can result in one team walking away with the jackpot.
           </p>
           {/* Awards - Adjusted sizes */}
@@ -67,7 +67,7 @@ const Ourwork = () => {
             alt="The Deported"
             className="object-contain w-full h-auto max-h-[250px] sm:max-h-[300px] mb-4"
           />
-          <p className="text-justify text-white text-xs sm:text-sm leading-relaxed mb-4 px-2">
+          <p className="text-left text-white text-xs sm:text-sm leading-relaxed mb-4 px-2">
             <strong>THE DEPORTED</strong> follows four families with a family member who is in the final days of the deportation process. The documentary examines the stress, fear, denial and fatalism of various friends, family and community members, and the specific individual. Each family must make a drastic decision: to self deport, to accept deportation, to continue a legal battle, or to go into hiding.
           </p>
           {/* Awards - Adjusted sizes and layout */}
@@ -109,7 +109,7 @@ const Ourwork = () => {
             alt="Harry & Meghan"
             className="object-contain w-full h-auto max-h-[250px] sm:max-h-[300px] mb-4"
           />
-          <p className="text-justify text-white text-xs sm:text-sm leading-relaxed mb-4 px-2">
+          <p className="text-left text-white text-xs sm:text-sm leading-relaxed mb-4 px-2">
             <strong>PEOPLE PRESENTS: HARRY & MEGHAN, A ROYAL REBELLION</strong> is the first in a series of youth-facing and brand-sponsored documentaries featuring the English Royals. A revealing special that explores Prince Harry and Meghan Markle's bold break from royal tradition, uncovering their personal struggles, cultural clashes, and defining choices that shook the monarchy and reshaped the future of the royal family.
           </p>
         </motion.div>
