@@ -73,7 +73,7 @@ import Navbar from "./Navbar";
 
 const Layout = ({ children, bgImage, bgVideo, custom }) => {
   return (
-    <div className="relative h-screen overflow-hidden">
+    <div className="relative min-h-screen overflow-hidden">
       {/* Agar koi custom layout bhejna ho (jaise WatchReel) */}
       {custom ? (
         custom
